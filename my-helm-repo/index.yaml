@@ -5,10 +5,44 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 11.9.0
-    created: "2020-09-29T15:30:42.312679406-04:00"
+    created: "2020-10-27T00:06:54.266034171-04:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 0.x.x
     description: Chart for PostgreSQL with HA architecture (using Replication Manager
       (repmgr) and Pgpool).
-    digest: 4766d14c4e7dcaa74ffa9cd80c44e76f94f2edd6bacd75edcbfbb8e363e6343c
+    digest: 539c6162658c5c9bcbfad9f8a5b72a6414e6a9fc8a0f41e5b33fcf93e9e700b5
+    home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
+    keywords:
+    - postgresql
+    - repmgr
+    - pgpool
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    - high availability
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: postgresql-ha
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    - https://www.postgresql.org/
+    urls:
+    - postgresql-ha-5.1.0.tgz
+    version: 5.1.0
+  - annotations:
+      category: Database
+    apiVersion: v1
+    appVersion: 11.9.0
+    created: "2020-10-27T00:06:54.258967157-04:00"
+    description: Chart for PostgreSQL with HA architecture (using Replication Manager
+      (repmgr) and Pgpool).
+    digest: 1dcb99a69e5d731d6c73017038a38b73ea85883f3168f7dff3f02eaa858a5d6d
     home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
     keywords:
@@ -35,7 +69,7 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 11.9.0
-    created: "2020-09-29T15:30:42.306471987-04:00"
+    created: "2020-10-27T00:06:54.253618394-04:00"
     description: Chart for PostgreSQL with HA architecture (using Replication Manager
       (repmgr) and Pgpool).
     digest: ebfa98b3fc443bf4c1cc28523ea2b27541d537a011038811930513a3a3c9f0e5
@@ -60,4 +94,4 @@ entries:
     urls:
     - postgresql-ha-3.5.9.tgz
     version: 3.5.9
-generated: "2020-09-29T15:30:42.301253108-04:00"
+generated: "2020-10-27T00:06:54.249671202-04:00"
